@@ -2,6 +2,9 @@ package com.caseone.caseone.services;
 
 import java.util.*;
 import com.caseone.caseone.entities.Car;
+import org.springframework.stereotype.Service;
+
+@Service
 public class ParkingService {
     private List<Car> parkingLot;
 
